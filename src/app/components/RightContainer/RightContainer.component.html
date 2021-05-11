@@ -1,0 +1,84 @@
+<!-- <main>
+    <div class="container-fluid" style="margin-top: 100px;">
+        <h1 class="mt-4">Purchase Order</h1>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-truck" style="color: #007bff;"></i>
+                <span class="text-muted" style="margin-left: 5px;"> - <strong
+                        style="font-weight: bolder;color: #007bff;font-style: italic;">Purchase Orders</strong> (<strong
+                        style="font-weight: bolder;color: #007bff;font-style: italic;">PO</strong>)<small
+                        style="color: #a4a5a5;font-style: italic;"> is a commercial document and first official offer
+                        issued by a buyer to a seller indicating types, quantities, and agreed prices for products or
+                        services.</small> </span>
+            </div>
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <form class="filter" style="margin-bottom: 20px;">
+                        <div class="input-group  input-group-sm">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text line-height-0 py-0">
+                                    Time Duration
+                                </span>
+                            </div>
+                            <input type="date" wire:ignore="" class="form-control col-1" value="aad"
+                                wire:model="filterDateFrom" id="date_from" name="start" placeholder="From"
+                                style="height: 34px;">
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                    to
+                                </span>
+                            </div>
+                            <input type="date" wire:ignore="" class="form-control col-1" wire:model="filterDateTo"
+                                id="date_to" name="end" placeholder="To" style="height: 34px;">
+                            <input type="text" class="form-control col-3" wire:model="search" placeholder="Search"
+                                data-col-index="0" style="height: 34px;">
+                            <input type="text" class="form-control col-2" wire:model="filterId"
+                                placeholder="Order Number (Origin ID)/ Record ID:" style="height: 34px;">
+
+
+
+                        </div>
+                        
+                        <div style="float: right; margin-top: -35px">
+                            <app-AddNewProduct></app-AddNewProduct>
+                        </div>
+                    </form>
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>NAME</th>
+                                <th>CREATED AT</th>
+                                <th>AVATAR</th>
+                                <th>AMOUNT</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr *ngFor="let d of listdata">
+                                <td class="th-0" style="text-align:center; width:2%">{{d.id}}</td>
+                                <td>{{d.name}}</td>
+                                <td class="th-0" style="text-align:center; width:20%">{{d.createdAt}}</td>
+                                <td style="width: 30%;">
+                                    <img  class="zoom" style="border: 1px solid #ddd;" src="{{d.avatar}}" width="150" height="150">
+                                </td>
+                                <td class="th-0" style="text-align:center; width:2%">{{d.amount}}</td>
+
+                                <td style="text-align:center; width:2%">
+                                    <button class="btn btn-default" style="background-color: whitesmoke;"
+                                        type="submit"><i class="fa fa-cog text-primary"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main> -->
+
+<app-Dashboard></app-Dashboard>

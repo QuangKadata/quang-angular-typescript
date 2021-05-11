@@ -1,0 +1,65 @@
+<div id="layoutSidenav" style="width: 100%;height: 100%;">
+  <div id="layoutSidenav_nav">
+      <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+          <div class="sb-sidenav-menu">
+              <div class="nav">
+                  <div class="sb-sidenav-menu-heading">Core</div>
+                  <a class="nav-link" href="index.html">
+                      <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                      Dashboard
+                  </a>
+                  <div class="sb-sidenav-menu-heading">Interface</div>
+                  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                      <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                      Cleverbee 4.0
+                      <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                  </a>
+                  <div class="collapse show" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                      <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" href="/dashboard">Dashboard</a>
+                        <a class="nav-link" href="/purchase-orders">Purchase Orders</a>
+                        <!-- <a class="nav-link" href="#">Master Tables</a>
+                        <a class="nav-link" href="#">Fulfilment</a>
+                        <a class="nav-link" href="#">Design</a>
+                        <a class="nav-link" href="#">Shipment</a>
+                        <a class="nav-link" href="#">Paypal</a>
+                        <a class="nav-link" href="#">Reporting</a>
+                        <a class="nav-link" href="#">Catalog</a>
+                        <a class="nav-link" href="#">Third Party Config</a>
+                        <a class="nav-link" href="#">Settings</a>
+                        <a class="nav-link" href="#">Big-Commerce</a> -->
+                      </nav>
+                  </div>
+                  <!-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                      <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                      Pages
+                      <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                  </a> -->
+                  <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                    
+                  </div>
+            
+              </div>
+          </div>
+          <div class="sb-sidenav-footer">
+              <div class="small">Logged in as:</div>
+              <b style="color: yellow;">[CEO]</b> <span style="color: white;"> QuangKadata</span>
+          </div>
+      </nav>
+  </div>
+  <div id="layoutSidenav_content">
+      <app-RightContainer></app-RightContainer>
+      <footer class="py-4 bg-light mt-auto">
+          <div class="container-fluid">
+              <div class="d-flex align-items-center justify-content-between small">
+                  <div class="text-muted">Copyright &copy; Quang E-Commerce</div>
+                  <div>
+                      <a href="#">Privacy Policy</a>
+                      &middot;
+                      <a href="#">Terms &amp; Conditions</a>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  </div>
+</div>

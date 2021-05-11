@@ -1,2 +1,1 @@
-# quang-angular-typescript
-Website E-Commerce Bằng Angular 7+
+bản quyền bởi QuangKadata

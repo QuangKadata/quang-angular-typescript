@@ -1,0 +1,11 @@
+<div class="login-page" *ngIf="!isSignedIn">
+  <div class="form" (ngSubmit)="login()">
+      <input type="text" placeholder="username" #email/>
+      <input type="password" placeholder="password"#password/>
+      <button type="submit" (click)="onSignIn(email.value , password.value)">Sign In</button>
+      <p class="message">Not registered? <a href="https://www.facebook.com/willy.ace.9/" target="_blank">Create an account</a></p>
+  </div>
+</div>
+<!-- <app-Home *ngIf="isSignedIn" (isLogout)="handleLogout()">
+  <p> You Are Login in</p>
+</app-Home> -->
